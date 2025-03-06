@@ -1,0 +1,106 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.header-logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.section-1-left-half-top-text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.section-1-left-half-bottom-text,a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+
+}
+
+.img-text-combo-container img{
+    display: flex;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.section-3{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    background-color: #E5E7EB;
+
+}
+
+.quote-text{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: light;
+    font-style: italic;
+}
+
+.section-4{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+
+.header, .section-1, .footer{
+    background-color: #1F2937;
+}
+
+button, .section-4{
+    background-color: #3882f6;
+    color: #f9faf8;
+
+}
